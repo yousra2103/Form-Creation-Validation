@@ -32,6 +32,7 @@ try {
     });
 
     users.forEach(user => {
+        const  userList = document.createElement('ul');
         // Create a <li> element
         const listItem = document.createElement('li');
         
